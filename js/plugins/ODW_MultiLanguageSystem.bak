@@ -606,27 +606,12 @@ ODW.MLS.pluginVersion = [1, 1, 0];
 		this._database = {};
 		const folder = this.getFolder();
 		const language = this.getCurrentLanguage();
-		
-		const languageFolder = folder + "/" + language.folder;
-
-		const fs = require('fs');
-		const path = require('path');
-
-		try {
-			const fullFolderPath = path.join(process.cwd(), languageFolder);
-			const jsonFiles = fs.readdirSync(fullFolderPath)
-				.filter(file => file.endsWith(".json"))
-				.map(file => file.replace(/\\.json$/, ""));
-
-			if (jsonFiles.length > 0) {
-				for (const file of jsonFiles) {
-					DataManager.mlsLoadLanguageFile(language.index, languageFolder + "/" + file);
-				}
-			} else {
-				this.logErrorIndex(language.index, "Empty language folders" + fullFolderPath);
+		if (language.files.length > 0) {
+			for (const file of language.files) {
+				DataManager.mlsLoadLanguageFile(language.index, folder.concat('/') + language.folder.concat( '/' ) + file.concat( '.json'));
 			}
-		} catch (e) {
-			this.logErrorIndex(language.index, "failed to load language folders" + e.message);
+		} else {
+			this.logErrorIndex(language.index, "No language database loaded for this index.");
 		}
 	};
 

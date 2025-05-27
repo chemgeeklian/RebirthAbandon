@@ -1,0 +1,100 @@
+{
+  "log": {
+    "1": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "不带把，不能要。",
+        "en": "No dick, this one is useless."
+      },
+      "face": "null"
+    },
+    "2": {
+      "character_code": "char.mother",
+      "dialog": {
+        "cn": "你……你太过分了。",
+        "en": "You... you've gone too far."
+      },
+      "face": "null"
+    },
+    "3": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "这已经是第三个不带把的了，还不都怪你？",
+        "en": "This is already the third one without a dick. It's all your fault."
+      },
+      "face": "null"
+    },
+    "4": {
+      "character_code": "char.mother",
+      "dialog": {
+        "cn": "……",
+        "en": "..."
+      },
+      "face": "null"
+    },
+    "5": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "我打工赚不了那么多钱。",
+        "en": "I can't earn that much money from my job."
+      },
+      "face": "null"
+    },
+    "6": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "养那么多不带把的，以后家门被砸了都没个能给我出气的。",
+        "en": "Raising so many without dicks—when someone comes to our door looking for trouble, who'll fight for me?"
+      },
+      "face": "null"
+    },
+    "7": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "哼。",
+        "en": "Hmph."
+      },
+      "face": "null"
+    },
+    "8": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "（抱起我出门）",
+        "en": "(Picks me up and walks out.)"
+      },
+      "face": "null"
+    },
+    "9": {
+      "character_code": "char.mother",
+      "dialog": {
+        "cn": "你，你放下她！",
+        "en": "You, you put her down!"
+      },
+      "face": "null"
+    },
+    "10": {
+      "character_code": "char.father",
+      "dialog": {
+        "cn": "少废话，不然我踹你。",
+        "en": "Shut up or I'll kick you."
+      },
+      "face": "null"
+    },
+    "11": {
+      "character_code": "char.mother",
+      "dialog": {
+        "cn": "呜……呜呜呜……",
+        "en": "Wuwu... sob sob sob..."
+      },
+      "face": "null"
+    },
+    "12": {
+      "character_code": "",
+      "dialog": {
+        "cn": "（就这样，我被自己的亲爹扔进了郊外的垃圾桶。）",
+        "en": "(And just like that, my own father threw me into a trash can in the suburbs.)"
+      },
+      "face": "null"
+    }
+  }
+}

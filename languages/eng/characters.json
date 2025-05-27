@@ -1,0 +1,14 @@
+{
+  "char.heroine": "Heroine",
+  "char.father": "Dad",
+  "char.mother": "Mom",
+  "char.boy": "Boy",
+  "char.grandma": "Mama-san",
+  "char.bun_granny": "Dumpling Granny",
+  "char.driver": "Bus Driver",
+  "char.traficker": "Human Trafficker",
+  "char.orphanage_head": "Corrupt Orphanage Director",
+  "char.foreign_father": "Adoptive Father",
+  "char.foreign_mother": "Adoptive Mother",
+  "char.other": "*"
+}
