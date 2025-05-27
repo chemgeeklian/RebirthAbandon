@@ -1,0 +1,92 @@
+{
+  "log": {
+    "1": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "这就是我重生到20年前的经历。",
+        "en": "So this is what it's like to be reborn 20 years in the past."
+      },
+      "face": "null"
+    },
+    "2": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "虽然是20年前，但好歹我也是重生者啊。",
+        "en": "Even if it’s 20 years ago, I’m a reincarnator, right?"
+      },
+      "face": "null"
+    },
+    "3": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "怎么这比上一世还惨。",
+        "en": "Why is this life even worse than the last one?"
+      },
+      "face": "null"
+    },
+    "4": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "上一世我爹也没因为我不带把把我扔了。",
+        "en": "At least in my last life, Dad didn’t throw me away just for being dickless."
+      },
+      "face": "null"
+    },
+    "5": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "唉，果然这种事情也会发生的吧……",
+        "en": "Sigh... This happens, though."
+      },
+      "face": "null"
+    },
+    "6": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "这辈子有了。",
+        "en": "This life is screwed."
+      },
+      "face": "null"
+    },
+    "7": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "咦，这是什么。",
+        "en": "Huh? What’s this?"
+      },
+      "face": "null"
+    },
+    "8": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "仙丹？",
+        "en": "An elixir?"
+      },
+      "face": "null"
+    },
+    "9": {
+      "character_code": "char.system",
+      "dialog": {
+        "cn": "检测到你在抱怨，送你一颗仙丹。",
+        "en": "Complaint detected. Dispensing one elixir."
+      },
+      "face": "null"
+    },
+    "10": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "系统？仙丹？",
+        "en": "System? Elixir?"
+      },
+      "face": "null"
+    },
+    "11": {
+      "character_code": "char.other",
+      "dialog": {
+        "cn": "哇，果然天无绝人之路。",
+        "en": "Whoa, guess god hasn’t abandoned me."
+      },
+      "face": "null"
+    }
+  }
+}

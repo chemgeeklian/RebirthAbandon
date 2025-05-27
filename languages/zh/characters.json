@@ -10,5 +10,6 @@
   "char.orphanage_head": "黑心孤儿院院长",
   "char.foreign_father": "外国父亲",
   "char.foreign_mother": "外国母亲",
-  "char.other": "*"
+  "char.other": "*",
+  "char.system": "系统"
 }

@@ -1,3 +1,8 @@
 {
-  "files": ["main", "characters", "START_LOG"]
+  "files": [
+    "START_LOG",
+    "TRASHCAN01",
+    "characters",
+    "main"
+  ]
 }

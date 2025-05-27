@@ -10,5 +10,6 @@
   "char.orphanage_head": "Corrupt Orphanage Director",
   "char.foreign_father": "Adoptive Father",
   "char.foreign_mother": "Adoptive Mother",
-  "char.other": "*"
+  "char.other": "*",
+  "char.system": "System"
 }

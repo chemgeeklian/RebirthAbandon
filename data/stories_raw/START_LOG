@@ -1,0 +1,29 @@
+dialog_cn = [
+    "爹：不带把，不能要。",
+    "妈：你……你太过分了。",
+    "爹：这已经是第三个不带把的了，还不都怪你？",
+    "妈：……",
+    "爹：我打工赚不了那么多钱。",
+    "爹：养那么多不带把的，以后家门被砸了都没个能给我出气的。",
+    "爹：哼。",
+    "爹：（抱起我出门）",
+    "妈：你，你放下她！",
+    "爹：少废话，不然我踹你。",
+    "妈：呜……呜呜呜……",
+    "（就这样，我被自己的亲爹扔进了郊外的垃圾桶。）"
+]
+
+dialog_en = [
+    "No dick, this one is useless.",
+    "You... you've gone too far.",
+    "This is already the third one without a dick. It's all your fault.",
+    "...",
+    "I can't earn that much money from my job.",
+    "Raising so many without dicks—when someone comes to our door looking for trouble, who'll fight for me?",
+    "Hmph.",
+    "(Picks me up and walks out.)",
+    "You, you put her down!",
+    "Shut up or I'll kick you.",
+    "Wuwu... sob sob sob...",
+    "(And just like that, my own father threw me into a trash can in the suburbs.)"
+]
