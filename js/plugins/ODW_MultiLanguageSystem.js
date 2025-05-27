@@ -602,33 +602,34 @@ ODW.MLS.pluginVersion = [1, 1, 0];
 	 *
 	 * @return void
 	 */
-	$.loadDatabase = function() {
+	$.loadDatabase = function () {
 		this._database = {};
-		const folder = this.getFolder();
-		const language = this.getCurrentLanguage();
-		
+		const folder = this.getFolder();  // 如 languages/
+		const language = this.getCurrentLanguage();  // { folder: "cn", index: 0 }
+
 		const languageFolder = folder + "/" + language.folder;
+		const indexFileUrl = `${languageFolder}/index.json`;
 
-		const fs = require('fs');
-		const path = require('path');
-
-		try {
-			const fullFolderPath = path.join(process.cwd(), languageFolder);
-			const jsonFiles = fs.readdirSync(fullFolderPath)
-				.filter(file => file.endsWith(".json"))
-				.map(file => file.replace(/\\.json$/, ""));
-
-			if (jsonFiles.length > 0) {
-				for (const file of jsonFiles) {
-					DataManager.mlsLoadLanguageFile(language.index, languageFolder + "/" + file);
+		// 先加载 index.json 获取文件列表
+		fetch(indexFileUrl)
+			.then(response => {
+				if (!response.ok) throw new Error(`Failed to load index.json: ${response.status}`);
+				return response.json();
+			})
+			.then(indexData => {
+				if (!Array.isArray(indexData.files)) {
+					throw new Error("index.json format error: 'files' must be an array");
 				}
-			} else {
-				this.logErrorIndex(language.index, "Empty language folders" + fullFolderPath);
-			}
-		} catch (e) {
-			this.logErrorIndex(language.index, "failed to load language folders" + e.message);
-		}
+				for (const file of indexData.files) {
+					const fileUrl = `${languageFolder}/${file}.json`;
+					DataManager.mlsLoadLanguageFile(language.index, fileUrl);
+				}
+			})
+			.catch(error => {
+				this.logErrorIndex(language.index, `Failed to load language files: ${error.message}`);
+			});
 	};
+
 
 	/*
 	 *-----------------------------------------------------------------------------
